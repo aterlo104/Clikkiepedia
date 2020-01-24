@@ -1,0 +1,379 @@
+body {
+    background: url(../img/dema1-min.png) no-repeat center / cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: Compacta;
+    font-size: 16px;
+}
+nav{
+    background: url(../img/background-min.png) no-repeat center top / cover;
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+}
+.nav-link:hover {
+    color: rgb(82, 82, 0);
+}
+.nav.tabs-cyan {
+  background: url(../img/background-min.png) no-repeat center top / cover;
+  font-size: 0.5em;
+  padding-left: 15%;
+}
+.nav-link:hover {
+  color: rgb(82, 82, 0);
+}
+.tab-content {
+  background-color: 191919;
+}
+span{
+  padding-top: 8px;
+}
+ /* Style the tab */
+ .tab {
+  overflow: hidden;
+  background: url(../img/background.png) no-repeat center / cover;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1%;
+  transition: 0.3s;
+  font-size: 0.7em;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #191919;
+  opacity: 0.5;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #fce300;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 2px solid #fce300;
+  border-top: none;
+} 
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0%;
+}
+#container2 {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0%;
+}
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+  background: #191919;
+  border-radius: 3px;
+  border: 5px solid #FCE300;
+  padding: 2%;
+}
+.title {
+    background: url(../img/YELLOWTAPE-Menu.png) no-repeat center top;
+    font-family: "Compacta";
+    font-size: 1em;
+    margin-bottom: 1%;
+    margin-top:1%;
+    padding: 1% 1%;
+    text-decoration: none;
+        text-transform: uppercase;
+}
+ul {
+  text-align: center;
+  list-style: none;
+  padding-right: 15%;
+}
+.articles li a{
+  display: block;
+  color: #FCE300;
+  text-decoration: none;
+  text-transform: uppercase; 
+  font-family: "Compacta";
+  font-size: 0.5em;
+}
+/* на sm */
+@media (min-width: 480px) {
+    ul {
+      padding-right: 10%;
+    }
+    .title {
+      font-size: 1.5em;
+  }
+  .articles li a {
+    font-size: 0.7em;
+}
+.nav.tabs-cyan {
+  font-size: 0.8em;    
+  padding-left: 11.5%;
+}
+.tab button {
+  font-size: 0.7em;
+}
+  }
+  /* на md */
+  @media (min-width: 992px) {
+    ul {
+      padding-right: 5%;
+    }
+    .title {
+      font-size: 2em;
+  }
+  .articles li a {
+    font-size: 1em;
+}
+.nav.tabs-cyan {
+  font-size: 0.8em;    
+  padding-left: 6%;
+}
+.tab button {
+  font-size: 0.7em;
+}
+  }
+  /* на lg */
+  @media (min-width: 1200px) {
+    ul {
+    }
+    .title {
+      font-size: 2em;
+  }
+  .articles li a {
+    font-size: 1em;
+}
+.nav.tabs-cyan {
+  font-size: 0.8em;    
+padding-left: 5.5%;
+}
+.tab button {
+  font-size: 1em;
+}
+  }
+iframe {
+        width: 90%;
+        height: 45%;
+    }
+
+    .wrapper-with-intrinsic-ratio {
+        position: relative;
+        padding-bottom: 50%;
+        height: 0;
+    }
+    .element-to-stretch {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;	
+    }
+
+    header{
+        /*margin-top: 200px;*/
+        font-family: Compacta, sans-serif;
+       }
+       .dws-menu *{
+        margin: 0;
+        padding: 0;
+       }
+       .dws-menu ul,
+       .dws-menu ol{
+        list-style: none;
+       }
+       .dws-menu > ul{
+        display: flex;
+        justify-content: center;
+       }
+       .dws-menu > ul li{
+        position: relative;
+        border-right: 1px solid #FCE300;
+       }
+       .dws-menu > ul li:first-child{
+        border-left: 1px solid #FCE300;
+       }
+       .dws-menu > ul li:last-child{
+        border-right: 1px solid #FCE300;
+       }
+       .dws-menu > ul li > a i.fa{
+        position: absolute;
+        top: 15px;
+        left: 12px;
+        font-size: 18px;
+       }
+       .dws-menu > ul li a{
+        display: block;
+        background: #FCE300; 
+       
+        padding: 15px 30px 15px 40px;
+        font-size: 14px;
+        color: #000000;
+        text-decoration: none;
+        text-transform:uppercase;
+        transition: all 0.3s ease;
+       }
+       .dws-menu li a:hover{
+        background: #FCE300
+       
+        color: #ffffff;
+        box-shadow: 1px 5px 10px -5px black;
+        transition: all 0.3s ease;
+       }
+       h6 {
+        color: #FCE300;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1em;
+        padding-bottom: 3px;
+    }
+.album_covers {
+  width: 90%;
+  height: auto;
+  border-radius: 3px;
+  border: 5px solid #FCE300;
+}
+.infobox {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  border: 3px solid #FCE300;
+  color: #FCE300;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.3em;
+  padding-bottom: 3px;
+  margin: 1%;
+  
+  box-shadow: 1px 5px 10px -5px black;
+}
+.infobox .col-sm {
+  padding-right: 8%;
+}
+.songs {
+  width: 100%;
+  height: auto;
+  color: #FCE300;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  padding: 5px;
+  padding-left: 5px;
+  margin: 7px;
+  border-radius: 7px;
+  border: 1px solid #FCE300;
+}
+a {
+  color: #FCE300;
+  text-decoration: none;
+}
+a:hover{
+  color: #005a00;
+  transition: all 0.3s ease;
+}
+.songs .row {
+  width: 85%;
+}
+.songs .col-sm {
+  padding: 1% 0 1% 0;
+}
+img {
+  padding: 2%;
+}
+p {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.5em;
+  padding: 1%;
+  font-family: "Futura";
+}
+/* на sm */
+@media (min-width: 480px) {
+        
+  p {
+    font-size: 0.7em;
+}
+.infobox {
+  font-size: 0.7em;
+}
+.songs {
+  font-size: 0.7em;
+}
+      }
+      /* на md */
+      @media (min-width: 992px) {
+        
+  p {
+    font-size: 1em;
+}
+.infobox {
+  font-size: 1em;
+}
+.songs {
+  font-size: 1em;
+}
+      }
+      /* на lg */
+      @media (min-width: 1200px) {
+        
+  p {
+    font-size: 1em;
+}
+.infobox {
+  font-size: 1em;
+}
+.songs {
+  font-size: 1em;
+}
+
+span{
+  padding-top: 8px;
+}
+      }
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+@font-face {
+    font-family: "Compacta"; 
+    src: url("../fonts/compacta/compacta_black_bt.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+  font-family: "Helvetica"; 
+  src: url("../fonts/helvetica neue/Helvetica Neue Condensed Black.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+
+  @font-face {
+    font-family: "Eurostyle"; 
+    src: url("../fonts/eurostile_extended_black.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+ @font-face {
+      font-family: "Futura"; 
+      src: url("../fonts/Futura Book Regular.otf") format("truetype"); 
+      font-style: normal; 
+      font-weight: normal; 
+      }
